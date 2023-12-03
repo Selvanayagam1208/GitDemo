@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.235 s <<< FAILURE! - in TestSuite
+Testrunner.Testngtestrunner.runScenario["Search experience for the product search in home page and offer page", "search and place the order for product"](2)  Time elapsed: 25.042 s  <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+
