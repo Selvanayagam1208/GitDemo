@@ -11,3 +11,5 @@ Examples:
 			| Name |
 			| Tom  |
 			|Beet  |
+			|cuc   |
+			|car   |
