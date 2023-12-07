@@ -1,6 +1,6 @@
 Feature:  place order
 @checkoutpage
-Scenario: search product in shortname place the order compare name with checkout page
+Scenario Outline: search product in shortname place the order compare name with checkout page
 
 Given User is on greencart landing page
 When  User searched with shortname <Name> and extracted actual name of product
@@ -9,7 +9,9 @@ Then user proceed to checkout and validate the <Name> item in checkout page
 And verify user has ablity to enter promocode and place the order
 Examples:
 	| Name |
-	| Tom |
+	| Tom  |
+	|cuc  |
+	
 					
  #cucumber.ansi-colors.disabled=  # true or false. default: false
 #cucumber.execution.dry-run=     # true or false. default: false
