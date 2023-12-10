@@ -31,7 +31,7 @@ public class Flightpage {
 	
 	@FindBy(xpath = "//input[@id='autosuggest']") WebElement auto;
 	@FindBy(css  = "ul>li.ui-menu-item>a") List<WebElement> li;
-	@FindBy(xpath  = "/html/body/form/div[4]/div[2]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div/div[3]/div/div[1]/span") WebElement Fromdrop;
+	@FindBy(xpath  = "/html/body/form/div[4]/div[2]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div/div[3]/div/div[1]/select") WebElement Fromdrop;
 	@FindBy(css  = "select#ctl00_mainContent_ddl_destinationStation1") WebElement Todrop;
 	@FindBy(id = "ctl00_mainContent_btn_FindFlights") WebElement search;
 	

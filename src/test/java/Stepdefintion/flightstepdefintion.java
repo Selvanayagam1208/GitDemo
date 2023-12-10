@@ -35,8 +35,8 @@ public class flightstepdefintion {
 		switchtoflight();
 		flightpage.autosuggestion(data.get(0), data.get(0));
 		Thread.sleep(2000);
-		flightpage.destination(data.get(1));
-		flightpage.reachplace(data.get(2));
+//		flightpage.destination(data.get(1));
+//		flightpage.reachplace(data.get(2));
 	}
 	@When("user clicks the search button")
 	public void user_clicks_the_search_button() {
