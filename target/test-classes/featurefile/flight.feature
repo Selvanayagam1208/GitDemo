@@ -1,16 +1,15 @@
-Feature:  place order
-@checkoutpage
-Scenario Outline: search product in shortname place the order compare name with checkout page
+Feature: Flight Ticket Booking
+@ticketpage
+Scenario: Checking flights available for ticket booking
 
-Given User is on greencart landing page
-When  User searched with shortname <Name> and extracted actual name of product
-And add "3" items of selectes porduct to cart
-Then user proceed to checkout and validate the <Name> item in checkout page
-And verify user has ablity to enter promocode and place the order
-Examples:
-	| Name |
-	| Tom  |
-	|cuc  |
+	   Given User is on greencart landing page
+    When User fill details of ticket booking
+    	| India  |
+    	|  MAA  |
+    	| Goa |
+    When user clicks the search button
+    Then User should navigate and verify available flights	
+
 	
 					
  #cucumber.ansi-colors.disabled=  # true or false. default: false

@@ -1,2 +1,0 @@
-file:src/test/java/featurefile/checkout.feature:13
-file:src/test/java/featurefile/searchproduct.feature:13:14

@@ -18,6 +18,7 @@ public class Landingpage {
 	private By Addtocart=By.xpath("//button[text()='ADD TO CART']");
 	private By checkoutbutton=By.cssSelector("a.cart-icon");
 	private By proceed=By.xpath("//button[text()='PROCEED TO CHECKOUT']");
+	private By flightlink=By.xpath("//a[text()='Flight Booking']");
 
 
 	public void searchitem(String name)
@@ -62,5 +63,9 @@ public class Landingpage {
 	public void proceedcart()
 	{
 		driver.findElement(proceed).click();
+	}
+	public void link()
+	{
+		driver.findElement(flightlink).click();
 	}
 }

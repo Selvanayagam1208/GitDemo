@@ -48,7 +48,6 @@ public class LandingpageStepdefintion extends Testbase{
 		System.out.println(landingpage.geturl());
 		Assert.assertTrue(landingpage.gettitleonpage().contains("GreenKart"));
 		Assert.assertEquals(landingpage.geturl(),pro.getProperty("QAurl"));
-	
 			}
 	@When("^User searched with shortname (.+) and extracted actual name of product")
 	public void user_searched_with_shortname_and_extracted_actual_name_of_product(String shortname) throws InterruptedException {
