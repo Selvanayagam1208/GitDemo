@@ -5,7 +5,9 @@ Scenario: Checking flights available for ticket booking
 	   Given User is on greencart landing page
     When User fill details of ticket booking
     	| India  |
-      When user clicks the search button
+    	|  chennai  |
+    	| Goa |
+    When user clicks the search button
     Then User should navigate and verify available flights	
 
 	
